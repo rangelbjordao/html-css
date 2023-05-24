@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faca uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor illo quasi alias odit. Atque animi odio placeat dolorum ex dicta doloremque, eaque possimus omnis ad deserunt. Minus cum eum sunt.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pagina001.html" target="frame">Primeira pagina</a></li>
+        <li><a href="paginas-extras/pagina002.html" target="frame">Segunda pagina</a></li>
+        <li><a href="paginas-extras/pagina003.html" target="frame">Terceira pagina</a></li>
+    </ul>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, sed. Nostrum, blanditiis temporibus. Doloremque omnis facere voluptatibus excepturi repudiandae molestias pariatur, culpa distinctio nihil natus. Fugiat, eaque? Labore, placeat quis?</p>
+
+    <iframe name="frame" srcdoc="<h1>Escolha uma das opções acima</h1> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, sed. Nostrum, blanditiis temporibus. Doloremque omnis facere voluptatibus excepturi repudiandae molestias pariatur, culpa distinctio nihil natus. Fugiat, eaque? Labore, placeat quis</p><img src='imagens/arcane.png'>">
+        <p>Infelizmente seu navegador nao e compatível com isso</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus neque explicabo illo ab, voluptatum corporis velit excepturi fugiat quos ex necessitatibus commodi, nihil hic sapiente deleniti doloribus totam inventore quae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis beatae laudantium illo optio nemo voluptas quas iusto laboriosam, deleniti, amet doloribus esse fugiat saepe atque error delectus, rerum suscipit repellat!</p>
+</body>
+</html>
